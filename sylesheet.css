@@ -1,0 +1,94 @@
+body{
+	background-image: url('fff.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+/**HEADER 
+header{
+	background-color:#f6b319;
+	border-radius: 0;
+	border:0;
+}
+
+img{
+	width:150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+
+a{
+	color: 557c3e;
+}
+
+.navbar-brand{
+	color:red;
+}**/
+
+
+li{
+	float: right;
+	list-style-type: none;
+	margin: 25px;
+	text-decoration: none;
+}
+
+li{
+	display: inline-block;
+}
+
+li a{
+	color: white;
+	padding: 2px 2px;
+	border: :2px solid pink;
+
+}
+li a:hover{
+	color: red;
+}
+
+
+marquee{
+	/**background-color: pink;**/
+	color: grey;
+	font-size: 42px;
+	text-align: center;
+	position: absolute;
+	top:85%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-family: Algerian;
+
+} 
+
+button{
+	color: blue;
+	border: 2px solid black;
+	float: center;
+	position: absolute;
+	top:95%;
+	left:50%;
+	transform: translate(-60%,-50%);
+	font-family: Algerian;
+
+}
+
+#main{
+	color: blue;
+	border: 2px solid black;
+	float: center;
+	position: absolute;
+	top:85%;
+	left:70%;
+	transform: translate(-60%,-50%);
+
+}
+
+button a:hover{
+	color:pink;
+	opacity: 0.5;
+
+}

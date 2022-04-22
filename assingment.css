@@ -1,0 +1,131 @@
+
+	*{
+		box-sizing: border-box;
+	}
+
+	h1{
+		text-align: center;
+	}
+	body{
+		border: 2px solid black;
+			font-family: verdana;
+			color: black;
+			background-color: white;
+
+		}
+		h1{
+			color:black;
+		}
+
+		div.main{
+			outline: 4px solid black;
+		outline-offset: 10px;
+		background-size: cover;
+
+		}
+	.chicken {
+		background-color: grey;
+		width: 300px;
+		float: left;
+		padding: 10px;
+		margin: 10px;
+		color: black;
+		border: 2px solid black;
+		line-height: 24px;
+		max-width: 100%
+		overflow-wrap:break-word;
+		text-size-adjust:100px;
+		outline: 4px solid red;
+		outline-offset: 0.5px;
+	
+	}
+
+		.beef{
+			background-color: grey;
+		width: 300px;
+		float: left;
+		padding: 10px;
+		margin: 10px;
+		color: black;
+		border: 2px solid black;
+		line-height: 24px;
+		max-width: 100%
+		overflow-wrap:break-word;
+		text-size-adjust:100px;
+		
+	}
+
+		.sushi {
+			background-color: grey;
+		width: 300px;
+		float: left;
+		padding: 10px;
+		margin: 8px;
+		color: black;
+		border: 2px solid black;
+		line-height: 24px;
+		max-width: 100%
+		overflow-wrap:break-word;
+		text-size-adjust:100px;
+	
+	}
+
+	.sushi h3{
+		background-color: lightyellow;
+		color: black;
+		float: right;
+		border: 2px solid black;
+		width:90;
+		text-align: center;
+		position: relative;
+		transform: translate(-50%,-50%);
+		width: 90px;
+		float: right;
+	}
+
+	.chicken h3{
+		background-color: pink;
+		color: black;
+		border: 2px solid black;
+		text-align: center;
+		position: relative;
+		transform: translate(-50%,-50%);
+		width: 90px;
+		float: right;
+		top: 0px;
+		left: 60px;
+	
+	}
+
+	.beef h3{
+		background-color: red;
+		color: white;
+		float: right;
+		border: 2px solid black;
+		width:90;
+		text-align: center;
+		position: relative;
+		transform: translate(-50%,-50%);
+		width: 90px;
+		float: right;
+		top: 0px;
+		left: 60px;
+	
+	
+	}
+
+	.sushi p{
+		float: left;
+		font-size: 16px;
+	}
+
+	.chicken p{
+		float: left;
+		font-size: 16px;
+
+	}
+
+	.beef p{
+		float: left;
+		font-size: 16px;
+	}
